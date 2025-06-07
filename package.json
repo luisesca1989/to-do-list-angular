@@ -5,6 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:dev": "ng build --configuration=development",
+    "build:prod": "ng build --configuration=production",
+    "deploy:dev": "npm run build:dev && firebase deploy --project development",
+    "deploy:prod": "npm run build:prod && firebase deploy --project production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
