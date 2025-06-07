@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "ang-todolist-01",
+    "development": "ambient-develop",
+    "production": "ang-todolist-01"
+  }
+}

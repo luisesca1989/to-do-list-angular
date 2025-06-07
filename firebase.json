@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/ang-todolist-01/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
